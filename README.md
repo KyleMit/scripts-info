@@ -1,7 +1,6 @@
-# scripts-helper
+# scripts-info
 
-A tiny, zero-dependency npm helper that lists your package scripts along with
-human-readable descriptions.
+Zero-dependency npm helper that lists package scripts with their descriptions.
 
 
 ## Usage
@@ -41,12 +40,6 @@ my-project scripts
   start        Kickstarts the application.
 ```
 
-Script names are shown in color when the output is a terminal (set `NO_COLOR`
-to disable). Scripts without an entry in `scripts-info` fall back to showing
-their command, dimmed.
-
-This repository eats its own dog food — run `npm run info` here to see it in
-action.
 
 ## Requirements
 

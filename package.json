@@ -15,10 +15,10 @@
   "license": "MIT",
   "scripts": {
     "info": "node index.js",
-    "publish": "npm publish --access public"
+    "release": "npm publish --access public"
   },
   "scripts-info": {
     "info": "Displays information about the scripts.",
-    "publish": "Publish the package to npm as public."
+    "release": "Publish the package to npm as public."
   }
 }
