@@ -1,0 +1,24 @@
+{
+  "name": "scripts-info",
+  "version": "1.0.0",
+  "description": "Zero-dependency npm helper that lists package scripts with their descriptions.",
+  "type": "module",
+  "bin": {
+    "scripts-info": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=20.12"
+  },
+  "license": "MIT",
+  "scripts": {
+    "info": "node index.js",
+    "publish": "npm publish --access public"
+  },
+  "scripts-info": {
+    "info": "Displays information about the scripts.",
+    "publish": "Publish the package to npm as public."
+  }
+}
