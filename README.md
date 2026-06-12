@@ -40,6 +40,16 @@ my-project scripts
   start        Kickstarts the application.
 ```
 
+To audit the `scripts-info` section, pass `--audit` or `-a`:
+
+```sh
+npx scripts-info --audit
+```
+
+Audit mode highlights scripts without info entries and `scripts-info` entries
+that do not match a package script. It exits with `0` when no issues are found
+and `1` when the audit finds missing or extra entries.
+
 
 ## Requirements
 
