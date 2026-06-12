@@ -1,6 +1,6 @@
 {
   "name": "scripts-info",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Zero-dependency npm helper that lists package scripts with their descriptions.",
   "type": "module",
   "bin": {
